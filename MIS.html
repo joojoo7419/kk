@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<head>
+<style>
+body
+{
+font-family:"Arial",Verdana,sans-serif;
+text-align:center;
+box-sizing: border-box;
+background-image: url('ipad_img.jpg');
+background-size: 100% ;
+background-repeat: no-repeat;
+margin:0 auto;
+}
+
+ul
+{
+text-align:center;
+}
+
+
+.left
+{
+float:right;
+}
+
+.logo
+{
+padding: 5px 0 0 30px;
+float:left;
+margin:0 auto;
+width:200px;
+}
+
+.menu
+{
+width:100%;
+height: 100px auto;
+background-color:white;
+top:0px;
+position: fixed;
+z-index:5;
+animation:menu 1s;
+}
+
+           @keyframes menu {
+               from { color: black; left: 0px; top:-150px; }
+               to { color: white; left: 0px; top: 0px; }
+           }
+.red:hover
+{
+border-left:3px solid red;
+}
+
+.row
+{
+padding:0 30px;
+}
+
+.MIS
+{
+width:1000px;
+height:550px;
+background-color:#ccc;
+margin:100px auto 0 auto;
+border-radius:50px 50px;
+padding:20px;
+opacity:0.9;
+}
+
+#navigation
+{
+list-style: none;
+padding: 0px 30px;
+font-size: 10px;
+width:150px;
+}
+
+#navigation li
+{
+font-size:17px;
+height: 30px;
+margin-top:28px;
+
+}
+
+#navigation li a
+{
+padding:4px;
+text-decoration: none;
+color: black;
+text-transform: uppercase;
+}
+
+#navigation li:hover a
+{
+display: block;
+width:140px;
+color: #747474;
+}
+
+#navigation ul
+{
+display:none;
+list-style: none;
+margin-left:20px;
+padding: 0;
+}
+
+#navigation li:hover
+{
+height: auto;
+font-size:18px;
+}
+
+#navigation li:hover ul
+{
+padding-top:2px;
+display: block;
+font-size: 17px;
+position: absolute;
+}
+
+#navigation ul li
+{
+margin:0;
+padding: 0;
+width: 150px;
+height: auto;
+color: #ccc;
+background: none;
+}
+
+#navigation li:hover ul li a
+{
+padding: 5px 6px 0 0;
+text-transform: lowercase;
+color: #ccc
+background: none;
+background-color:white;
+}
+
+</style>
+</head>
+<html>
+<body>
+<div class="menu">
+<div class="row">
+<div class="logo">
+<a class="ssr" href="mainpg.html">
+<img border="0" src="ssr.jpg" width="100" >
+</a>
+</div>
+<div class="left">
+<ul id="navigation">
+	<li class="red"><a href="book1.html">Book Review</a>
+		<ul>
+			<li class=""><a href="book1.html">Book 1</a><li>
+			<li class=""><a href="book2.html">Book 2</a><li>
+			<li class=""><a href="book3.html">Book 3</a><li>
+		</ul>
+	</li>
+</div>
+<div class="left">
+<ul id="navigation">
+	<li class="red"><a href="MIS_Trend.html">MIS Trend</a>
+		<ul>
+			<li class=""><a href="MIS_Trend.html">기술 소개</a><li>
+			<li class=""><a href="MIS_Trend2.html">기술 근황</a><li>
+			<li class=""><a href="MIS_Trend3.html">미래 기술 소개</a><li>
+		</ul>
+	</li>
+</ul>
+</div>
+<div class="left">
+<ul id="navigation">
+	<li class="red"><a href="MIS.html">MIS</a>
+	</li>
+</ul>
+</div>
+<div class="left">
+<ul id="navigation">
+	<li class="red"><a href="Team.html">Team</a>
+		<ul>
+			<li class=""><a href="Team_jjm.html">진정민</a><li>
+			<li class=""><a href="Team_ybj.html">유병준</a><li>
+			<li class=""><a href="Team_hsj.html">한석주</a><li>
+			<li class=""><a href="Team_jjh.html">정지혁</a><li>
+		</ul>
+	</li>
+</ul>
+</div>
+</ul>
+</div>
+</div>
+
+<div class="MIS">
+
+<h1>MIS란?</h1>
+<p>Management Information Systems의 약자로 조직의 계획 운영 및 통제를 위한 정
+보를 수집, 저장, 검색,처리하여 적절한 시기에 적절한 
+<br>형태로 구성원에게 제공함으로써 조직의 목표를 효율적이고 효과적으로 달성할 수 있도록 조직화한 통합적 인간 기계시스템을 뜻한다.
+<br>오늘날 MIS라는 용어는 여러 종류의 업무 프로그램들을 총칭하는 용어로 발전하였는데, 
+의사결정지원시스템, 인적자원 관리시스템,
+<br> 프로젝트 관리 시스템, 데이터베이스 
+검색시스템 등을 모두 포함하는 넓은 개념으로 쓰이는 경우도 있다</p>
+
+<h1>MIS의 연구 분야</h1>
+<p>MIS의 주된 연구분야는 크게 behavioral MIS, technical MIS, economical MIS로 나뉜다.
+Behavioral MIS:
+정보 이용자의 행태 정보를
+<br> 연구한다. 결재, 설문 등의 정보를 누가 어떤 목적으로 사용했는지, 
+어떤 정보에 어떤 유형의 사용자들이 많이 접근하는지 등에 대한 정보를 연구한다
+Technical MIS:
+컴퓨터과학과 상당히 겹친다. 데이터 처리, 빅데이터 분석 및 분류 등을 연구한다</li>
+Economical MIS:
+정보의 가치에 대해 다룬다. 경제학, 정치학, 군사학 등 다양한 학문의 관점에서의 정보의 가치에 
+대한 연구를 포함한다
+</p>
+<h1>MIS 교육과정을 성공적으로 인수한다면?</h1>
+<p>경영과 정보기술에 관한 전문지식을 갖춘 융합형 인재로 양성될 뿐 아니라 디지털 시대를 
+이끌어 갈 창의적 리더의 자질을 얻을 수 있다. 경영정보학부의 교육과정을 성공적으로 이수한
+ 졸업생들은 다양한 디지털 비즈니스 분야에 진출하여 빅데이터 분석 및 응용, IT 컨설팅, 정보화 
+기획 및 전략 수립, 정보시스템 관리 및 운영 등의 직무 수행을 통해 우리나라의 ICT 경쟁력 강화에 
+주도적으로 기여하고 있다. (출처: 국민대학교 경영정보학부 홈페이지)</p>
+</div>

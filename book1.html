@@ -1,0 +1,311 @@
+﻿<!DOCTYPE html>
+<head>
+<style>
+body
+{
+font-family:"Arial",Verdana,sans-serif;
+text-align:center;
+box-sizing: border-box;
+background-image: url('book1_img.jpg');
+background-size: 100% ;
+background-repeat: no-repeat;
+margin:0 auto;
+}
+
+ul
+{
+text-align:center;
+}
+
+
+.red:hover
+{
+border-left:3px solid red;
+}
+
+           @keyframes menu {
+               from { color: black; left: 0px; top:-150px; }
+               to { color: white; left: 0px; top: 0px; }
+           }
+           @keyframes menu2 {
+               from { color: black; height:50px; }
+               to { color: white; height:115px; }
+           }
+
+
+
+.left
+{
+float:right;
+}
+
+.logo
+{
+padding: 5px 0 0 30px;
+float:left;
+margin:0 auto;
+width:200px;
+}
+
+.menu
+{
+width:100%;
+height: 100px auto;
+background-color:white;
+top:0px;
+position: fixed;
+z-index:5;
+animation:menu 1s;
+}
+
+.row
+{
+padding:0 30px;
+}
+
+.menu2
+{
+width:150px;
+height:115px;
+border :4px solid black;
+background-color: white;
+text-align:center;
+font-size:20px;
+padding:0.5%;
+margin:150px 50px;
+left: 20px;
+position: fixed;
+border-radius:10px 10px;
+animation:menu2 1s;
+overflow:hidden;
+}
+
+.menu2 a:hover
+{
+font-size:22px;
+}
+
+.team
+{
+margin: 0 0 0 300px;
+width: 900px;
+height:550px;
+opacity:0.9;
+background-color:#747474;
+border-radius: 50px 50px;
+overflow: hidden;
+}
+
+.space
+{
+width:500px;
+height:100px;
+margin:0 auto;
+}
+
+.hiv
+{
+text-decoration:none;
+color:black;
+}
+
+.ima
+{
+width:150px;
+height:180px;
+left:30px;
+float:left;
+margin:25px 40px 15px 70px;
+}
+
+.ac
+{
+width:500px;
+height:160px;
+right:30px;
+float:left;
+border-radius:20px 20px;
+margin:60px 0px 0px 0px;
+text-align:left;
+color:white;
+}
+
+.ad
+{
+width:700px;
+height:auto;
+float:left;
+padding:10px;
+margin:0px 0px 0px 70px;
+text-align:left;
+color:white;
+}
+
+#navigation
+{
+list-style: none;
+padding: 0px 30px;
+font-size: 10px;
+width:150px;
+}
+
+#navigation li
+{
+font-size:17px;
+height: 30px;
+margin-top:28px;
+
+}
+
+#navigation li a
+{
+padding:4px;
+text-decoration: none;
+color: black;
+text-transform: uppercase;
+}
+
+#navigation li:hover a
+{
+display: block;
+width:140px;
+color: #747474;
+}
+
+#navigation ul
+{
+display:none;
+list-style: none;
+margin-left:20px;
+padding: 0;
+}
+
+#navigation li:hover
+{
+height: auto;
+font-size:18px;
+}
+
+#navigation li:hover ul
+{
+padding-top:2px;
+display: block;
+font-size: 17px;
+position: absolute;
+}
+
+#navigation ul li
+{
+margin:0;
+padding: 0;
+width: 150px;
+height: auto;
+color: #ccc;
+background: none;
+}
+
+#navigation li:hover ul li a
+{
+padding: 5px 6px 0 0;
+text-transform: lowercase;
+color: #ccc
+background: none;
+background-color:white;
+}
+
+</style>
+</head>
+<html>
+<body>
+<div class="menu">
+<div class="row">
+<div class="logo">
+<a class="ssr" href="mainpg.html">
+<img border="0" src="ssr.jpg" width="100" >
+</a>
+</div>
+<div class="left">
+<ul id="navigation">
+	<li class="red"><a href="book1.html">Book Review</a>
+		<ul>
+			<li class=""><a href="book1.html">Book 1</a><li>
+			<li class=""><a href="book2.html">Book 2</a><li>
+			<li class=""><a href="book3.html">Book 3</a><li>
+		</ul>
+	</li>
+</div>
+<div class="left">
+<ul id="navigation">
+	<li class="red"><a href="MIS_Trend.html">MIS Trend</a>
+		<ul>
+			<li class=""><a href="MIS_Trend.html">기술 소개</a><li>
+			<li class=""><a href="MIS_Trend2.html">기술 근황</a><li>
+			<li class=""><a href="MIS_Trend3.html">미래 기술 소개</a><li>
+		</ul>
+	</li>
+</ul>
+</div>
+<div class="left">
+<ul id="navigation">
+	<li class="red"><a href="MIS.html">MIS</a>
+	</li>
+</ul>
+</div>
+<div class="left">
+<ul id="navigation">
+	<li class="red"><a href="Team.html">Team</a>
+		<ul>
+			<li class=""><a href="Team_jjm">진정민</a><li>
+			<li class=""><a href="Team_ybj">유병준</a><li>
+			<li class=""><a href="Team_hsj">한석주</a><li>
+			<li class=""><a href="Team_jjh">정지혁</a><li>
+		</ul>
+	</li>
+</ul>
+</div>
+</ul>
+</div>
+</div>
+
+<div class="menu2">
+<a class="hiv" href="book1.html"><font color=#747474>Book 1</font></a>
+<br>
+<br>
+<a class="hiv" href="book2.html"><font color=#000000>Book 2</font></a>
+<br>
+<br>
+<a class="hiv" href="book3.html"><font color=#000000>Book 3</font></a>
+<br>
+</div>
+
+<div class="space">
+<p></p>
+</div>
+<div class="team">
+<img class="ima" src="book_al_img.jpg">
+<p class="ac">
+제목: 알고리즘 트레이닝 : 프로그래밍 대회 입문 가이드
+<br>
+<br>
+쪽수: 352쪽 &nbsp&nbsp&nbsp 출간일: 2019년 05월 09일 &nbsp&nbsp&nbsp 정가: 25.000원
+<br>
+<br>
+저자: 안티 라크소넨 저/조승현, 김진현 역
+</p>
+<p class="ad">
+선정이유
+<br>
+<br>
+경영정보시스템은 조직의 계획·운영 및 통제를 위한정보를 수집, 저장·검색·처리하여 적절한 시기에 적절한 형태로 적절한 구성원에게 제공함으로써 조직의 목표를 효율적이고 효과적으로 달성할 수 있도록 조직화한 통합적 인간·기계 시스템으로 적절한 행동을 취하기 위해서 잘 짜인 알고리즘이 중요하다 생각하여 위 책을 선정하게 되었습니다.
+<br>
+<br>
+<br>
+내용
+<br>
+<br>
+효율적 코드 작성, 기초 알고리즘, 고급 알고리즘, 그리고 경진 프로그래밍과 관련된 수학 4가지에 대해 중점적으로 다루며 따라 해보기 쉽게 구성되어 있기에 알고리즘을 배우고 프로그래밍 대회를 연습하고 싶은 학생들에게 훌륭한 참고서가 될 것이다. 몇몇 알고리즘 설계 기법은 제대로 정리된 자료가 부족하여 상위권 경진 프로그래머들 사이에서만 주로 공유되지만 그런 기법들을 다루고 있으며, 이론 + 예제 문제로 구성되어있어 문제가 주어졌을 때, 풀이 방법과 코드의 설명이 있어 알고리즘을 학습하기에 좋다고 생각합니다.
+</p>
+</div>
+
+</body>
+</html>

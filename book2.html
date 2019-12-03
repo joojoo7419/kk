@@ -1,0 +1,319 @@
+﻿<!DOCTYPE html>
+<head>
+<style>
+body
+{
+font-family:"Arial",Verdana,sans-serif;
+text-align:center;
+box-sizing: border-box;
+background-image: url('book2_img.jpg');
+background-size: 100% ;
+background-repeat: no-repeat;
+margin:0 auto;
+}
+
+ul
+{
+text-align:center;
+}
+
+
+.red:hover
+{
+border-left:3px solid red;
+}
+
+           @keyframes menu {
+               from { color: black; left: 0px; top:-150px; }
+               to { color: white; left: 0px; top: 0px; }
+           }
+           @keyframes menu2 {
+               from { color: black; height:50px; }
+               to { color: white; height:115px; }
+           }
+
+
+
+.left
+{
+float:right;
+}
+
+.logo
+{
+padding: 5px 0 0 30px;
+float:left;
+margin:0 auto;
+width:200px;
+}
+
+.menu
+{
+width:100%;
+height: 100px auto;
+background-color:white;
+top:0px;
+position: fixed;
+z-index:5;
+animation:menu 1s;
+}
+
+.row
+{
+padding:0 30px;
+}
+
+.menu2
+{
+width:150px;
+height: 115px;
+border :4px solid black;
+background-color: white;
+text-align:center;
+font-size:20px;
+padding:0.5%;
+margin:150px 50px;
+left: 20px;
+position: fixed;
+border-radius:10px 10px;
+animation:menu2 1s;
+overflow:hidden;
+}
+
+.menu2 a:hover
+{
+font-size:22px;
+}
+
+.team
+{
+margin: 0 0 0 300px;
+width: 900px;
+height:550px;
+background-color:#747474;
+border-radius: 50px 50px;
+overflow: hidden;
+opacity:0.9;
+}
+
+.space
+{
+width:500px;
+height:100px;
+margin:0 auto;
+}
+
+.space2
+{
+width:500px;
+height:250px;
+margin:0 auto;
+}
+
+.hiv
+{
+text-decoration:none;
+color:black;
+}
+
+.ima
+{
+width:150px;
+height:180px;
+left:30px;
+float:left;
+margin:25px 40px 15px 70px;
+}
+
+.ac
+{
+width:500px;
+height:160px;
+right:30px;
+float:left;
+border-radius:20px 20px;
+margin:60px 0px 0px 0px;
+text-align:left;
+color:white;
+}
+
+.ad
+{
+width:700px;
+height:auto;
+float:left;
+padding:10px;
+margin:0px 0px 0px 70px;
+text-align:left;
+color:white;
+}
+
+#navigation
+{
+list-style: none;
+padding: 0px 30px;
+font-size: 10px;
+width:150px;
+}
+
+#navigation li
+{
+font-size:17px;
+height: 30px;
+margin-top:28px;
+
+}
+
+#navigation li a
+{
+padding:4px;
+text-decoration: none;
+color: black;
+text-transform: uppercase;
+}
+
+#navigation li:hover a
+{
+display: block;
+width:140px;
+color: #747474;
+}
+
+#navigation ul
+{
+display:none;
+list-style: none;
+margin-left:20px;
+padding: 0;
+}
+
+#navigation li:hover
+{
+height: auto;
+font-size:18px;
+}
+
+#navigation li:hover ul
+{
+padding-top:2px;
+display: block;
+font-size: 17px;
+position: absolute;
+}
+
+#navigation ul li
+{
+margin:0;
+padding: 0;
+width: 150px;
+height: auto;
+color: #ccc;
+background: none;
+}
+
+#navigation li:hover ul li a
+{
+padding: 5px 6px 0 0;
+text-transform: lowercase;
+color: #ccc
+background: none;
+background-color:white;
+}
+
+</style>
+</head>
+<html>
+<body>
+<div class="menu">
+<div class="row">
+<div class="logo">
+<a class="ssr" href="mainpg.html">
+<img border="0" src="ssr.jpg" width="100" >
+</a>
+</div>
+<div class="left">
+<ul id="navigation">
+	<li class="red"><a href="book1.html">Book Review</a>
+		<ul>
+			<li class=""><a href="book1.html">Book 1</a><li>
+			<li class=""><a href="book2.html">Book 2</a><li>
+			<li class=""><a href="book3.html">Book 3</a><li>
+		</ul>
+	</li>
+</div>
+<div class="left">
+<ul id="navigation">
+	<li class="red"><a href="MIS_Trend.html">MIS Trend</a>
+		<ul>
+			<li class=""><a href="MIS_Trend.html">기술 소개</a><li>
+			<li class=""><a href="MIS_Trend2.html">기술 근황</a><li>
+			<li class=""><a href="MIS_Trend3.html">미래 기술 소개</a><li>
+		</ul>
+	</li>
+</ul>
+</div>
+<div class="left">
+<ul id="navigation">
+	<li class="red"><a href="MIS.html">MIS</a>
+	</li>
+</ul>
+</div>
+<div class="left">
+<ul id="navigation">
+	<li class="red"><a href="Team.html">Team</a>
+		<ul>
+			<li class=""><a href="Team_jjm.html">진정민</a><li>
+			<li class=""><a href="Team_ybj.html">유병준</a><li>
+			<li class=""><a href="Team_hsj.html">한석주</a><li>
+			<li class=""><a href="Team_jjh.html">정지혁</a><li>
+		</ul>
+	</li>
+</ul>
+</div>
+</ul>
+</div>
+</div>
+
+<div class="menu2">
+<a class="hiv" href="book1.html"><font color=#000000>Book 1</font></a>
+<br>
+<br>
+<a class="hiv" href="book2.html"><font color=#747474>Book 2</font></a>
+<br>
+<br>
+<a class="hiv" href="book3.html"><font color=#000000>Book 3</font></a>
+<br>
+</div>
+
+<div class="space">
+<p></p>
+</div>
+<div class="team">
+<img class="ima" src="book_easymis_img.jpg">
+<p class="ac">
+제목: 쉽게 풀어쓴 경영전략과 정보기술
+<br>
+<br>
+쪽수: 316쪽 &nbsp&nbsp&nbsp 출간일: 2018년 02월 26일 &nbsp&nbsp&nbsp 정가: 18.800원
+<br>
+<br>
+저자: 최무진 저
+</p>
+<p class="ad">
+선정이유
+<br>
+<br>
+경영정보 학생으로서 ‘MIS가 무엇인지, 경영정보학과에서 무엇을 배우는지’를 모르는 학우들이 많아 경영과 정보관리를 쉽게 이해할 수 있고자 이 책을 선정하였습니다.
+<br>
+<br>
+<br>
+내용
+<br>
+<br>
+경영, 경영정보 그리고 ICT에 대한 배경지식이 상대적으로 부족한 학생들에게 기업이 어떻게 신제품과 차별화되는 제품을 창출하고 변화와 경영혁신을 추구할 수 있는지를 이해함으로써 전략적사고와 경영마인드를 함양할 수 있도록 구성되어 있습니다. 이론들을 보다 쉽게 이해하고 현실에 적용할 수 있도록 크고 작은 사례, 기술사례, IT상식, 알아두기, 각주 등으로 이루어졌습니다.
+</p>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,343 @@
+﻿<!DOCTYPE html>
+<head>
+<style>
+body
+{
+font-family:"Arial",Verdana,sans-serif;
+text-align:center;
+box-sizing: border-box;
+background-image: url('indi_img.jpg');
+background-size: 100% ;
+background-repeat: no-repeat;
+margin:0 auto;
+}
+
+ul
+{
+text-align:center;
+}
+
+
+.left
+{
+float:right;
+}
+
+.logo
+{
+padding: 5px 0 0 30px;
+float:left;
+margin:0 auto;
+width:200px;
+}
+
+.menu
+{
+width:100%;
+height: 100px auto;
+background-color:white;
+top:0px;
+position: fixed;
+animation:menu 1s;
+z-index:6;
+}
+
+.row
+{
+padding:0 30px;
+}
+
+.menu2
+{
+width:150px;
+height:230px;
+border :4px solid black;
+background-color: white;
+text-align:center;
+font-size:20px;
+padding:0.5%;
+margin:150px 50px;
+left: 20px;
+position: fixed;
+border-radius:10px 10px;
+animation:menu2 1s;
+overflow:hidden;
+}
+
+.space2
+{
+width:300px;
+
+margin:0 auto;
+border:1px solid black;
+}
+
+.menu2 a:hover
+{
+font-size:22px;
+}
+
+.team2
+{
+margin: 100px 0 0 250px;
+width: 300px;
+height:200px;
+float: left;
+background-color:#ccc;
+border-radius:10px 10px;
+overflow: hidden;
+opacity:0.9;
+}
+
+.team3
+{
+margin: 100px 0 0 50px;
+width: 300px;
+height:200px;
+float: left;
+background-color:#ccc;
+border-radius: 10px 10px;
+overflow: hidden;
+opacity:0.9;
+}
+
+.hiv
+{
+text-decoration:none;
+color:black;
+}
+
+.red:hover
+{
+border-left:3px solid red;
+}
+
+.box
+{
+margin-left:25%;
+width:150px;
+height:100px;
+overflow:hidden;
+}
+
+.box>img
+{
+width:100%
+
+}
+
+.box > img:hover
+{
+transform:scale(1.2);
+}
+
+
+#navigation
+{
+list-style: none;
+padding: 0px 30px;
+font-size: 10px;
+width:150px;
+}
+
+#navigation li
+{
+font-size:17px;
+height: 30px;
+margin-top:28px;
+
+}
+
+#navigation li a
+{
+padding:4px;
+text-decoration: none;
+color: black;
+text-transform: uppercase;
+}
+
+#navigation li:hover a
+{
+display: block;
+width:140px;
+color: #747474;
+}
+
+#navigation ul
+{
+display:none;
+list-style: none;
+margin-left:20px;
+padding: 0;
+}
+
+#navigation li:hover
+{
+height: auto;
+font-size:18px;
+}
+
+#navigation li:hover ul
+{
+padding-top:2px;
+display: block;
+font-size: 17px;
+position: absolute;
+}
+
+#navigation ul li
+{
+margin:0;
+padding: 0;
+width: 150px;
+height: auto;
+color: #ccc;
+background: none;
+}
+
+#navigation li:hover ul li a
+{
+padding: 5px 6px 0 0;
+text-transform: lowercase;
+color: #ccc
+background: none;
+background-color:white;
+}
+
+           @keyframes menu {
+               from { color: black; left: 0px; top:-150px; }
+               to { color: white; left: 0px; top: 0px; }
+           }
+           @keyframes menu2 {
+               from { color: black; height:50px; }
+               to { color: white; height:230px; }
+           }
+
+</style>
+</head>
+<html>
+<body>
+<div class="menu">
+<div class="row">
+<div class="logo">
+<a class="ssr" href="mainpg.html">
+<img border="0" src="ssr.jpg" width="100" >
+</a>
+</div>
+<div class="left">
+<ul id="navigation">
+	<li class="red"><a href="book1.html">Book Review</a>
+		<ul>
+			<li class=""><a href="book1.html">Book 1</a><li>
+			<li class=""><a href="book2.html">Book 2</a><li>
+			<li class=""><a href="book3.html">Book 3</a><li>
+		</ul>
+	</li>
+</div>
+<div class="left">
+<ul id="navigation">
+	<li class="red"><a href="MIS_Trend.html">MIS Trend</a>
+		<ul>
+			<li class=""><a href="MIS_Trend.html">기술 소개</a><li>
+			<li class=""><a href="MIS_Trend2.html">기술 근황</a><li>
+			<li class=""><a href="MIS_Trend3.html">미래 기술 소개</a><li>
+		</ul>
+	</li>
+</ul>
+</div>
+<div class="left">
+<ul id="navigation">
+	<li class="red"><a href="MIS.html">MIS</a>
+	</li>
+</ul>
+</div>
+<div class="left">
+<ul id="navigation">
+	<li class="red"><a href="Team.html">Team</a>
+		<ul>
+			<li class=""><a href="Team_jjm.html">진정민</a><li>
+			<li class=""><a href="Team_ybj.html">유병준</a><li>
+			<li class=""><a href="Team_hsj.html">한석주</a><li>
+			<li class=""><a href="Team_jjh.html">정지혁</a><li>
+		</ul>
+	</li>
+</ul>
+</div>
+</ul>
+</div>
+</div>
+
+<div class="menu2">
+<a class="hiv" href="Team.html"><font color=#000000>팀 소개</font></a>
+<br>
+<br>
+<a class="hiv" href="Team_jjm.html"><font color=#ccc>진정민</font></a>
+<br>
+<br>
+<a class="hiv" href="Team_ybj.html"><font color=#00000>유병준</font></a>
+<br>
+<br>
+<a class="hiv" href="Team_hsj.html"><font color=#000000>한석주</font></a>
+<br>
+<br>
+<a class="hiv" href="Team_jjh.html"><font color=#000000>정지혁</font></a>
+</div>
+
+
+
+<div class="team2">
+<a class="hiv" href="">
+<p>학생회</p>
+<div class="box">
+<img src="gov.jpg" >
+</div>
+<p>경영정보학부 학생회</p>
+</a>
+</div>
+<div class="team3">
+<a class="hiv" href="">
+<p>CEO</p>
+<div class="box">
+<img src="ceo_img.jpg" >
+</div>
+<p>경영대학 농구 동아리</p>
+</a>
+</div>
+<div class="team3">
+<a class="hiv"href="">
+<p>MOS 자격증</p>
+<div class="box">
+<img src="mos_img.png" >
+</div>
+<p>MOS 자격증 취득</p>
+</a>
+</div>
+<div class="team2">
+<a class="hiv" href="">
+<p>모두리</p>
+<div class="box">
+<img src="moduri.jpg" >
+</div>
+<p>경영정보학부 학회</p>
+</a>
+</div>
+<div class="team3">
+<a class="hiv" href="">
+<p>빈 페이지</p>
+<div class="box">
+<img src="ssr.jpg" >
+</div>
+<p>아직 채워지지 않은 파일입니다.</p>
+</a>
+</div>
+<div class="team3">
+<a class="hiv" href="">
+<p>빈 페이지</p>
+<div class="box">
+<img src="ssr.jpg" >
+</div>
+<p>아직 채워지지 않은 파일입니다.</p>
+</a>
+</div>
+</div>
+

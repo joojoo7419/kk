@@ -1,0 +1,276 @@
+﻿<!DOCTYPE html>
+<head>
+<style>
+body
+{
+font-family:"Arial",Verdana,sans-serif;
+text-align:center;
+box-sizing: border-box;
+background-image: url('trend_img.jpg');
+background-size: 100% ;
+background-repeat: no-repeat;
+margin:0 auto;
+}
+
+ul
+{
+text-align:center;
+}
+
+.red:hover
+{
+border-left:3px solid red;
+}
+
+.left
+{
+float:right;
+}
+
+.logo
+{
+padding: 5px 0 0 30px;
+float:left;
+margin:0 auto;
+width:200px;
+}
+
+.menu
+{
+width:100%;
+height: 100px auto;
+background-color:white;
+top:0px;
+position: fixed;
+z-index:4;
+animation:menu 1s;
+}
+
+           @keyframes menu {
+               from { color: black; left: 0px; top:-150px; }
+               to { color: white; left: 0px; top: 0px; }
+           }
+           @keyframes menu2 {
+               from { color: black; height:50px; }
+               to { color: white; height:135px; }
+           }
+
+
+.row
+{
+padding:0 30px;
+}
+
+.menu2
+{
+width:150px;
+height:135px;
+border :4px solid black;
+background-color: white;
+text-align:center;
+font-size:20px;
+padding:0.5%;
+margin:150px 50px;
+left: 20px;
+position: fixed;
+border-radius:10px 10px;
+animation:menu2 1s;
+overflow:hidden;
+}
+
+.menu2 > a
+{
+text-decoration:none;
+}
+
+.menu2 a:hover
+{
+font-size:22px;
+}
+
+
+.team
+{
+margin: 0 0 0 300px;
+width: 900px;
+height:600px;
+background-color:#ccc;
+border-radius: 50px 50px;
+overflow: hidden;
+opacity:0.9;
+padding:0 30px;
+}
+
+.space
+{
+width:500px;
+height:100px;
+margin:0 auto;
+}
+
+.space2
+{
+width:500px;
+height:250px;
+margin:0 auto;
+}
+
+#navigation
+{
+list-style: none;
+padding: 0px 30px;
+font-size: 10px;
+width:150px;
+}
+
+#navigation li
+{
+font-size:17px;
+height: 30px;
+margin-top:28px;
+
+}
+
+#navigation li a
+{
+padding:4px;
+text-decoration: none;
+color: black;
+text-transform: uppercase;
+}
+
+#navigation li:hover a
+{
+display: block;
+width:140px;
+color: #747474;
+}
+
+#navigation ul
+{
+display:none;
+list-style: none;
+margin-left:20px;
+padding: 0;
+}
+
+#navigation li:hover
+{
+height: auto;
+font-size:18px;
+}
+
+#navigation li:hover ul
+{
+padding-top:2px;
+display: block;
+font-size: 17px;
+position: absolute;
+}
+
+#navigation ul li
+{
+margin:0;
+padding: 0;
+width: 150px;
+height: auto;
+color: #ccc;
+background: none;
+}
+
+#navigation li:hover ul li a
+{
+padding: 5px 6px 0 0;
+text-transform: lowercase;
+color: #ccc
+background: none;
+background-color:white;
+}
+
+</style>
+</head>
+<html>
+<body>
+<div class="menu">
+<div class="row">
+<div class="logo">
+<a class="ssr" href="mainpg.html">
+<img border="0" src="ssr.jpg" width="100" >
+</a>
+</div>
+<div class="left">
+<ul id="navigation">
+	<li class="red"><a href="book1.html">Book Review</a>
+		<ul>
+			<li class=""><a href="book1.html">Book 1</a><li>
+			<li class=""><a href="book2.html">Book 2</a><li>
+			<li class=""><a href="book3.html">Book 3</a><li>
+		</ul>
+	</li>
+</div>
+<div class="left">
+<ul id="navigation">
+	<li class="red"><a href="MIS_Trend.html">MIS Trend</a>
+		<ul>
+			<li class=""><a href="MIS_Trend.html">기술 소개</a><li>
+			<li class=""><a href="MIS_Trend2.html">기술 근황</a><li>
+			<li class=""><a href="MIS_Trend3.html">미래 기술 소개</a><li>
+		</ul>
+	</li>
+</ul>
+</div>
+<div class="left">
+<ul id="navigation">
+	<li class="red"><a href="MIS.html">MIS</a>
+	</li>
+</ul>
+</div>
+<div class="left">
+<ul id="navigation">
+	<li class="red"><a href="Team.html">Team</a>
+		<ul>
+			<li class=""><a href="Team_jjm.html">진정민</a><li>
+			<li class=""><a href="Team_ybj.html">유병준</a><li>
+			<li class=""><a href="Team_hsj.html">한석주</a><li>
+			<li class=""><a href="Team_jjh.html">정지혁</a><li>
+		</ul>
+	</li>
+</ul>
+</div>
+</ul>
+</div>
+</div>
+
+<div class="menu2">
+<a class="" href="MIS_Trend.html"><font color=#ccc>기술 소개</font></a>
+<br>
+<br>
+<a class="" href="MIS_Trend2.html"><font color=#000000>기술 근황</font></a>
+<br>
+<br>
+<a class="" href="MIS_Trend3.html"><font color=#000000>미래 기술</font></a>
+<br>
+</div>
+
+<div class="space">
+<p></p>
+</div>
+</div>
+<div class="team">
+<p>
+<h1>MIS(경영정보시스템) 기술 소개</h1>
+<p>경영정보시스템은 1960년대까지는 대부분 거래과정의 기록을 유지하고 계산하는 전자적 자료처리(EDPS: Electronic Data Processing System)에 머무는 단순한 기능이었다.
+이후 경영정보를 효율적으로 관리하고자 하는 목적에서 경영정보 기능이 추가 되었으며, 이것이 경영정보시스템으로 발전하게 되는 계기가 되었다.
+경영정보시스템은 경영관리를 위한 정보를 미리 만들어 경영 의사결정을 담당하는 최고경영자에게 정보를 제공하는 기능을 담당한다.
+</p>
+<p>1970년대에 접어들면서 기존의 경영정보시스템에서 제공하는 고정된 경영정보는 실제 의사결정 시 현실과 많은 차이를 보이고 있어 의사결정에 보다 적합한 시스템으로 바뀌게 되었다. 이것이 곧 의사결정 지원시스템(DSS: Decision Support System)이며, 제공되는 정보는 관리자의 입장이 아닌 의사결정을 내리는 최종 사용자의 관점에서 생성되어 제공되었다. 이러한 인식의 전환은 의사결정자의 의사결정 스타일에 따라 독특한 정보제공체계로 나타나기도 하였다.
+</p>
+<p>1980년대에는 마이크로 컴퓨팅기술의 등장으로 정보시스템이 비약적으로 발전하는 계기가 되었다. 컴퓨팅기술의 등장, 응용 소프트웨어의 발달, 통신 및 네트워크의 발전 등은 정보시스템과 연결되어 이제 최종 사용자가 능동적으로 경영 의사결정 정보를 탐색하는 수준에까지 이르게 되었다. 이러한 관점에서 새롭게 등장하게 되는 것이 중역정보시스템(EIS: Executive Information System)이며, 최고경영자가 원하는 시점에 원하는 정보를 획득할 수 있는 능동적 시스템이라고 할 수 있다. 또한 인공지능(AI: Artificial Intelligence)의 개발과 응용은 정보시스템의 발전에 획기적인 전환점이 되었으며, 이후 1990년대 전략정보시스템(SIS: Strategic Information System)으로 발전하기에 이르렀다.
+</p>
+<p>1990년대에 접어들면서 IT, 디지털기술을 기반으로 한 인터넷, 인트라넷, 엑스트라넷기술은 글로벌 네트워크를 발전시키면서 20세기 초반부터 더욱더 비즈니스 정보시스템을 획기적으로 발전시켰다. 즉, 인터넷 기업과 글로벌 e-비즈니스, 그리고 전자상거래시스템은 오늘날 기업의 운명을 결정짓는 경영의 혁명이 되고 있다.
+</p>
+</p>
+</div>
+
+</body>
+</html>

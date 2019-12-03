@@ -1,0 +1,239 @@
+﻿<!DOCTYPE html>
+<head>
+<style>
+body
+{
+font-family:"Arial",Verdana,sans-serif;
+text-align:center;
+box-sizing: border-box;
+background-image: url('main_1.jpg');
+background-size: 100% ;
+background-repeat: no-repeat;
+margin:0 auto;
+overflow:hidden;
+}
+
+ul
+{
+text-align:center;
+}
+
+
+.left
+{
+float:right;
+}
+
+.logo
+{
+padding: 5px 0 0 30px;
+float:left;
+margin:0 auto;
+width:200px;
+}
+
+.menu
+{
+width:100%;
+height: 100px auto;
+background-color:white;
+animation:menu 1s;
+position: fixed;
+}
+
+margin:0 auto;
+}
+
+.row
+{
+padding:0 30px;
+}
+
+.lil
+{
+width:390px;
+padding:0;
+font-size: 150px;
+color:white;
+text-align:left;
+margin:445px 0 0 0;
+position:relative;
+animation: colorbox 2s;
+}
+
+.ss
+{
+height:100%;
+margin: 0 0 0 50px;
+float:left;
+padding:0;
+	
+}
+
+.ss2
+{
+height:100%;
+float:left;
+padding:0;
+
+}
+
+.pp
+{
+margin:525px 0 0 0;
+font-size: 60px;
+color:#ccc;
+width:500px;
+text-align:left;
+animation: colorbox2 2s ;
+position:relative;
+}
+
+.red:hover
+{
+border-left:3px solid red;
+}
+
+#navigation
+{
+list-style: none;
+padding: 0px 30px;
+font-size: 10px;
+width:150px;
+}
+
+#navigation li
+{
+font-size:17px;
+height: 30px;
+margin-top:28px;
+}
+
+#navigation li a
+{
+padding:4px;
+text-decoration: none;
+color: black;
+text-transform: uppercase;
+}
+
+#navigation li:hover a
+{
+display: block;
+width:140px;
+color: #747474;
+}
+
+#navigation ul
+{
+display:none;
+list-style: none;
+margin-left:20px;
+padding: 0;
+}
+
+#navigation li:hover
+{
+height: auto;
+font-size:18px;
+}
+
+#navigation li:hover ul
+{
+padding-top:2px;
+display: block;
+font-size: 17px;
+position: absolute;
+}
+
+#navigation ul li
+{
+margin:0;
+padding: 0;
+width: 150px;
+height: auto;
+color: #ccc;
+background: none;
+}
+
+#navigation li:hover ul li a
+{
+padding: 5px 6px 0 0;
+text-transform: lowercase;
+color: #ccc
+background: none;
+background-color:white;
+}
+           @keyframes colorbox {
+               from { color: black; left: 0px; top:200px; }
+               to { color: white; left: 0px; top: 0px; }
+           }
+           @keyframes colorbox2 {
+               from { color: #454545; left: 0px; top:250px; }
+               to { color: #ccc; left: 0px; top: 0px; }
+           }
+           @keyframes menu {
+               from { color: black; left: 0px; top:-150px; }
+               to { color: white; left: 0px; top: 0px; }
+           }
+</style>
+</head>
+<html>
+<body>
+<div class="menu">
+<div class="row">
+<div class="logo">
+<a class="ssr" href="mainpg.html">
+<img border="0" src="ssr.jpg" width="100" >
+</a>
+</div>
+<div class="left">
+<ul id="navigation">
+	<li class="red"><a href="book1.html">Book Review</a>
+		<ul>
+			<li class=""><a href="book1.html">Book 1</a><li>
+			<li class=""><a href="book2.html">Book 2</a><li>
+			<li class=""><a href="book3.html">Book 3</a><li>
+		</ul>
+	</li>
+</div>
+<div class="left">
+<ul id="navigation">
+	<li class="red"><a href="MIS_Trend.html">MIS Trend</a>
+		<ul>
+			<li class=""><a href="MIS_Trend.html">기술 소개</a><li>
+			<li class=""><a href="MIS_Trend2.html">기술 근황</a><li>
+			<li class=""><a href="MIS_Trend3.html">미래 기술 소개</a><li>
+		</ul>
+	</li>
+</ul>
+</div>
+<div class="left">
+<ul id="navigation">
+	<li class="red"><a href="MIS.html">MIS</a>
+	</li>
+</ul>
+</div>
+<div class="left">
+<ul id="navigation">
+	<li class="red"><a href="Team.html">Team</a>
+		<ul>
+			<li class=""><a href="Team_jjm.html">진정민</a><li>
+			<li class=""><a href="Team_ybj.html">유병준</a><li>
+			<li class=""><a href="Team_hsj.html">한석주</a><li>
+			<li class=""><a href="Team_jjh.html">정지혁</a><li>
+		</ul>
+	</li>
+</ul>
+</div>
+</ul>
+</div>
+</div>
+<div class="ss">
+<h2 class="lil">SSR:</h2>
+</div>
+<div class="ss2">
+<p class="pp">sae sa ram</p>
+</div>
+</body>
+</html>
